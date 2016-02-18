@@ -36,7 +36,7 @@ body {
 .topmenu li a {
     color:white;
     text-decoration:none;
-    padding: 11px 25px 12px 25px;
+    padding: 11px 25px 11px 25px;
 }
 
 .topmenu li a:hover {
@@ -133,5 +133,5 @@ body {
 }
 
 .copy {
-    padding-left:213px;
+    padding-left:210px;
 }
