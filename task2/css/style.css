@@ -1,0 +1,43 @@
+body {
+    background-color:gray;
+}
+
+.box {
+    left: 33%;
+    right: 33%;
+    width: 33%;
+    background-color:white;
+    position: absolute;
+    margin-top: 0px;
+    font-family: Times New Roman;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.pic img {display: block;
+    margin:0 auto;        
+    height: 200px;
+}
+
+.position, .phrase1 {
+    margin: 30px 60px;
+}
+
+ul {
+    margin: 30px 60px 30px 45px;
+    line-height:30px;
+}
+
+.data, .profile, .feedback {
+    margin: 30px 60px;
+    line-height:10px;
+}
+
+hr {
+    background-color: gray;
+    height: 1px;
+    margin: 0 40px;
+}
