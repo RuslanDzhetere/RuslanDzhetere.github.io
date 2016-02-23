@@ -92,7 +92,7 @@ body {
     float:left;
     height: 28px;
     position: relative;
-    margin-left: 27px;
+    margin-left: 26px;
 }
 
 .topmenu  li  a {
@@ -146,7 +146,6 @@ span {
     padding-top:8px;
 	  padding-bottom: 20000px;
 	  margin-bottom: -20000px;
-    line-height: 24px;
     font-size:14px;
 }
 
@@ -165,7 +164,6 @@ span {
     padding-top:8px;
     padding-bottom: 20000px;
 	  margin-bottom: -20000px;
-    line-height: 24px;
     font-size:14px;
 }
 .empty h1 {
@@ -186,7 +184,6 @@ span {
     padding-top:8px;
     padding-bottom: 20000px;
 	  margin-bottom: -20000px;
-    line-height: 24px;
     font-size:14px;
 }
 
