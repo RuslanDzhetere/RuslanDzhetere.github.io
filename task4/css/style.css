@@ -158,8 +158,7 @@ span {
 }
 
 .empty {
-    width: 578px;
-    float: left;
+    width: 789px;
     text-align: center;
 	  background: white;
     color: #424c43;
@@ -179,7 +178,7 @@ span {
 
 .news {
     width: 210px;
-	  float: left;
+	  float: right;
     text-align: center;
 	  background: #edeef0;
     color: #424c43;
