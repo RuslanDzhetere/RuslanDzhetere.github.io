@@ -2,18 +2,18 @@ body {
     background-image: url(../img/background.jpg);
     background-repeat: repeat-x;
     width:auto;
-    height: 1020px;
+    /*height: 1020px;*/
     font-family: Tahoma;
 }
 
 .box {
-    background-color: white;
     margin: 0 auto;
     width: 1000px;
-height:988px;
+/*height:988px;*/
 }
 
 .header {
+    background-color: white;
     margin: 0 auto;
     width: 1000px;
     height:175px;
@@ -71,7 +71,7 @@ height:988px;
 .content {
     margin: 0 auto;
     width: 1000px;
-    height:575px;
+    /*height:575px;*/
     border-bottom: 1px solid black;
 }
 
@@ -92,7 +92,7 @@ height:988px;
     float:left;
     height: 28px;
     position: relative;
-    margin-left: 27px;
+    margin-left: 25px;
 }
 
 .topmenu  li  a {
@@ -137,14 +137,15 @@ span {
 }
 
 .information {
-    width: 21%;
+    width: 210px;
 	  float: left;
     text-align: center;
   	background: #edeef0;
-    padding-top:12px;
-	  padding-bottom: 20005px;
+    color: #424c43;
+    border-right: 1px solid #c7cacf;
+    padding-top:8px;
+	  padding-bottom: 20000px;
 	  margin-bottom: -20000px;
-    line-height: 24px;
     font-size:14px;
 }
 
@@ -156,26 +157,33 @@ span {
 }
 
 .empty {
-    width: 48%;
-    margin:0 auto;
+    width: 789px;
     text-align: center;
 	  background: white;
-    padding-top:12px;
-    padding-bottom: 20005px;
+    color: #424c43;
+    padding-top:8px;
+    padding-bottom: 20000px;
 	  margin-bottom: -20000px;
-    line-height: 24px;
     font-size:14px;
 }
+.empty h1 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #424c43;
+}
+
 
 .news {
-    width: 21%;
+    width: 210px;
 	  float: right;
     text-align: center;
 	  background: #edeef0;
-    padding-top:12px;
-    padding-bottom: 20005px;
+    color: #424c43;
+    border-left: 1px solid #c7cacf;
+    padding-top:8px;
+    padding-bottom: 20000px;
 	  margin-bottom: -20000px;
-    line-height: 24px;
     font-size:14px;
 }
 
@@ -189,7 +197,6 @@ span {
 .footer {
     text-align: center;
     color: #cee3ec;
-    margin-top: 8px;
-    margin-bottom: 13px;
-    font-size: 10px;
+    margin-top: 10px;
+    font-size: 12px;
 }
