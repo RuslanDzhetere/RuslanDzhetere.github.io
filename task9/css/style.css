@@ -1,0 +1,1774 @@
+@font-face {
+    font-family: "League Gothic";
+    src: url('../fonts/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: Arial,Tahoma, sans-serif;
+    font-size:14px;
+    width:100%;
+    height:100%;
+    margin: 0 auto;
+
+}
+
+.wrapper {
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+.containerMain {
+    width:100%;
+    max-width:2400px;
+    margin: 0 auto;
+    position:relative;
+
+}
+
+header {
+    max-width:100%;
+    height:845px;
+    background: url(../img/bg.png) no-repeat center top;
+    display: block;
+  }
+
+.containerSmall {
+    width:100%;
+    margin: 0 auto;
+}
+
+ .slider {
+    width:100%;
+    max-width: 2440px;
+    height:400px;
+    background:  url(../img/sliderBG.png) 0 0 no-repeat;
+    position: absolute;
+    top:278px;
+    left:0px;
+}
+
+.top {
+    max-width:960px;
+    height:50px;
+    margin: 0 auto;
+    padding-top:70px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.logo {
+    display:inline-block;
+    margin-bottom: 37px;
+}
+
+.menu {
+    float:right;
+    margin:4px 0px 0px 0px;
+}
+
+.menu ul {
+    padding:0px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left:48px;
+}
+
+.menu .firstItem {
+    margin-left:0px;
+}
+
+.menu li a {
+    display: block;
+    text-decoration: none;
+    color:#ffffff;
+    font-family:"League Gothic";
+    font-size: 24px;
+}
+
+.menu li a:hover {
+    position: relative;
+}
+
+.menu li a:hover:after {
+    content: "";
+    position: absolute;
+    background:  #edbfff;
+    height: 2px;
+    bottom: 0px;
+    left: -7px;
+    right: -7px;
+}
+
+.sliderBigCell {
+    max-width:960px;
+    height:610px;
+    margin: 0 auto;
+    padding:141px 20px 0px 20px;
+}
+
+.sliderSmallCell {
+    max-width:960px;
+    height:450px;
+    margin:0px 0px 60px 0px;
+    padding:0px 20px 0px 0px;
+}
+
+.sliderArticle {
+    margin-top:95px;
+    margin-right:11%;
+    float:left;
+    max-width:52%;
+}
+
+.sliderArticle h1 {
+    color:#fefefe;
+    font-family:"League Gothic";
+    font-size: 58px;
+    letter-spacing: 0.1px;
+}
+
+.sliderArticle h2 {
+    color:#edbfff;
+    font-family:"League Gothic";
+    font-size: 32px;
+    margin:2px 0px 0px 0px;
+}
+
+.sliderArticle p {
+    color:#ffffff;
+    font-family:"Open Sans";
+    font-size: 18px;
+    margin:6px 0px 0px 0px;
+    line-height: 25px;
+    letter-spacing: -0.5px;
+}
+
+.sliderImg {
+    margin-left:64.37%;
+    position:relative;
+}
+
+.button {
+    position:absolute;
+    top:149px;
+    left: 137px;
+}
+
+.sliderSwitch1 {
+    display:block;
+    width:960px;
+    height:17px;
+    margin-left: 74%;
+}
+
+.sliderCircle {
+    position: relative;
+    display: inline-block;
+    margin-right: 1px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #42434c;
+}
+
+.sliderCircleWhite {
+    position: relative;
+    display: inline-block;
+    margin-right: 1px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #e7e7e7;
+    border: 3px solid #42434c;
+}
+
+
+.aboutCompany {
+    max-width:2400px;
+    height:263px;
+    margin: 0 auto;
+    background: url(../img/bg-company.png) center top no-repeat;
+    padding: 77px 0px 0px 0px;
+    border-top:2px solid #33253a;
+}
+
+.box {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box1 {
+    display: inline-block;
+    padding-left: 6.7%;
+    width: 23.4%;
+    margin-right:4.8%;
+    position: relative;
+}
+
+.box1:before {
+    content: '';
+    position: absolute;
+    background: url(../img/sprite.png);
+    background-position: 0 0;
+    left:11px ;
+    top: 7px;
+    width: 29px;
+    height: 31px;
+}
+
+.box2 {
+    display: inline-block;
+    padding-left: 6.7%;
+    width: 23.4%;
+    margin-right:4.8%;
+    position: relative;
+}
+
+.box2:before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/sprite.png);
+    background-position: -28px 0;
+    left:8px ;
+    top: 7px;
+    width: 30px;
+    height: 31px;
+}
+
+.box3 {
+    display: inline-block;
+    padding-left: 5.5%;
+    width: 23.4%;
+    margin-right:0%;
+    position: relative;
+}
+
+.box3:before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/sprite.png);
+    background-position: -60px 0;
+    left:10px ;
+    top: 7px;
+    width: 24px;
+    height: 31px;
+}
+
+.box1 h3, .box2 h3, .box3 h3 {
+    margin: 0px 0px 0px 0px;
+    font-family: "League Gothic";
+    font-size: 30px;
+    color:#ffffff;
+}
+
+.box1 p, .box2 p, .box3 p {
+    font-family: "Open Sans";
+    font-size: 16px;
+    height: 120px;
+    overflow: hidden;
+    margin: 10px 0px 0px 0px;
+    color: #ffffff;
+    letter-spacing: -0.2px;
+    line-height: 24px;
+}
+
+.box1 a {
+    position: absolute;
+    width: 58px;
+    text-decoration: none;
+    font-family: "League Gothic";
+    font-size: 18px;
+    color: #ffffff;
+    left:77%;
+    top: 179px;
+}
+
+.box2 a {
+    position: absolute;
+    width: 58px;
+    text-decoration: none;
+    font-family: "League Gothic";
+    font-size: 18px;
+    color: #ffffff;
+    left:79%;
+    top: 179px;
+}
+
+ .box3 a {
+    position: absolute;
+    width: 58px;
+    text-decoration: none;
+    font-family: "League Gothic";
+    font-size: 18px;
+    color: #ffffff;
+    left:81%;
+    top: 179px;
+}
+
+.box1 a:hover, .box2 a:hover, .box3 a:hover {
+    color: grey;
+}
+
+article {
+    width:100%;
+    height:486px;
+    background-color: #f9f9f9;
+    border-top: 2px solid grey;
+}
+
+.containerArticle {
+    max-width:960px;
+    height:387px;
+    margin: 0 auto;
+    padding: 98px 0px 0px 52px;
+}
+
+.containerArticleLeft {
+    float:left;
+    width:50%;
+    height:483px;
+}
+
+
+.articleLeft {
+    width:87.79%;
+    height:270px;
+    background-color: white;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+}
+
+.articleLeft:before {
+    content: '';
+    position:absolute;
+    top:20px;
+    left:-27px;
+    background: url(../img/photoOfMan.png);
+    width:49px;
+    height:49px
+}
+
+.articleLeft h2 {
+    font-family: "League Gothic";
+    font-size: 30px;
+    color:#454545;
+    padding: 32px 0px 0px 34px;
+}
+
+.articleLeft span {
+    font-family: "League Gothic";
+    font-size: 30px;
+    color:#edbfff;
+    padding: 0px 0px 0px 6px;
+}
+
+.articleLeft p {
+    width:327px;
+    color:#454545;
+    font-family:"Open Sans";
+    font-size: 16px;
+    letter-spacing: -0.52px;
+    line-height: 25px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 35px;
+    overflow: hidden;
+}
+
+.sliderSwitch2 {
+    display:block;
+    width:960px;
+    height:17px;
+    margin: 26px 0px 0px 167px;
+}
+
+.sliderSwitch2 .sliderCircle {
+    position: relative;
+    display: inline-block;
+    margin-right: 1px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.sliderSwitch2 .sliderCircleActive {
+    position: relative;
+    display: inline-block;
+    margin-right: 1px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #42434c;
+    border: 3px solid #ffffff;
+}
+
+.articleRight {
+    float:right;
+    width:50%;
+    position:relative;
+}
+
+.updates1:before {
+    content: '';
+    position:absolute;
+    top:1px;
+    left:4px;
+    background: url(../img/spriteForUpdates.png);
+    background-position: 0px 0px;
+    width:49px;
+    height:49px
+}
+
+.updates2:before {
+    content: '';
+    position:absolute;
+    top:68px;
+    left:4px;
+    background: url(../img/spriteForUpdates.png);
+    background-position: 0px 113px;
+    width:49px;
+    height:49px
+}
+
+.updates3:before {
+    content: '';
+    position:absolute;
+    top:132px;
+    left:4px;
+    background: url(../img/spriteForUpdates.png);
+    background-position: 0px 49px;
+    width:49px;
+    height:49px
+}
+
+.articleRight h2 {
+    font-family: "League Gothic";
+    font-size: 30px;
+    color:#454545;
+    padding: 32px 0px 15px 3px;
+}
+
+
+.articleRight ul {
+    padding: 0px 0px 10px 68px;
+    position:relative;
+}
+
+.articleRight li {
+    margin: 0px 0px 16px 0px;
+}
+
+.updates1 h3, .updates2 h3, .updates3 h3 {
+    font-family: "Open Sans";
+    font-size: 16px;
+    color:#454545;
+    font-weight: bold;
+    padding: 0px 0px 0px 3px;
+    line-height: 26px;
+    letter-spacing: 1.3px;
+}
+
+.articleRight ul li p {
+    font-family: "Open Sans";
+    font-size: 16px;
+    color:#454545;
+    padding: 0px 0px 0px 0px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+}
+
+.articleRight a {
+    text-decoration: none;
+    font-family: "League Gothic";
+    font-size: 18px;
+    font-weight: bold;
+    color: #454545;
+    margin-left: 73%;
+}
+
+.pictures {
+    width:100%;
+    height:120px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.picturesContainer {
+    width:960px;
+    height:120px;
+    margin: 0 auto;
+    padding: 23px 0px 0px 0px;
+}
+
+.logo1 {
+    display: block;
+    float:left;
+    background: url(../img/logos.png);
+    background-position: 0px 0px;
+    width:65px;
+    height:65px;
+    margin-left: -413px;
+}
+
+.logo2 {
+  display: block;
+  float:left;
+  background: url(../img/logos.png);
+  background-position: -138px 0px;
+  width:65px;
+  height:65px;
+  margin-left: -279px;
+}
+
+.logo3 {
+    display: block;
+    float:left;
+    background: url(../img/logos.png);
+    background-position: 505px 0px;
+    width:70px;
+    height:65px;
+    margin-left: -144px;
+}
+
+.logo4 {
+    display: block;
+    float:left;
+    background: url(../img/logos.png);
+    background-position: 373px 0px;
+    width:70px;
+    height:65px;
+    margin-left: -13px;
+}
+
+.logo5 {
+    display: block;
+    float:left;
+    background: url(../img/logos.png);
+    background-position: 252px 0px;
+    width:113px;
+    height:65px;
+    margin-left: 52px;
+}
+
+.logo6 {
+    display: block;
+    float:left;
+    background: url(../img/logos.png);
+    background-position: 79px 0px;
+    width:78px;
+    height:65px;
+    margin-left: 59px;
+}
+
+.comments {
+    width:100%;
+    height:394px;
+    background-color: #ececec;
+}
+
+.commentsContainer {
+    max-width:960px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.commentsRight {
+    display: inline-block;
+    overflow: hidden;
+    float:left;
+    width: 29.3%;
+    padding-left: 0%;
+    margin-right: 0%;
+    height: 305px;
+}
+.commentsLeft {
+    display: inline-block;
+    overflow: hidden;
+    float:left;
+    width: 29%;
+    padding-left: 0%;
+    margin-right: 6.2%;
+    height: 305px;
+}
+
+.commentsLeft h2 {
+    color:#454545;
+    font-family:"League Gothic";
+    font-size: 48px;
+    margin:92px 0px 0px 0px;
+}
+
+.commentsLeft span {
+    color:#b9b9b9;
+    font-family:"League Gothic";
+    font-size: 48px;
+    margin:0px 0px 0px 0px;
+}
+
+.commentsLeft h3 {
+    color:#c5c5c5;
+    font-family:Georgia;
+    font-style: italic;
+    font-size: 16px;
+    margin:16px 0px 0px 0px;
+    letter-spacing: -0.3px;
+}
+
+
+.commentsLeft p {
+    color:#787878;
+    font-family:"Open Sans";
+    font-size: 16px;
+    margin:10px 0px 0px 0px;
+    line-height: 25px;
+    letter-spacing: -0.1px;
+}
+
+.commentsCenter {
+    display: inline-block;
+    overflow: hidden;
+    float:left;
+    width: 29.3%;
+    padding-left: 0%;
+    margin-right: 6.2%;
+    height: 305px;
+}
+
+.commentsCenter h2 {
+    color:#454545;
+    font-family:"League Gothic";
+    font-size: 30px;
+    margin:96px 0px 0px 0px;
+}
+
+.commentsCenter p {
+    color:#787878;
+    font-family:"Open Sans";
+    font-size: 16px;
+    margin:7px 0px 0px 0px;
+    line-height: 25px;
+    letter-spacing: -0.1px;
+}
+
+.commentsRight h2 {
+    color:#454545;
+    font-family:"League Gothic";
+    font-size: 30px;
+    margin:96px 0px 0px 0px;
+}
+
+.commentsRight p {
+    color:#787878;
+    font-family:"Open Sans";
+    font-size: 16px;
+    margin:7px 0px 0px 0px;
+    line-height: 25px;
+    letter-spacing: -0.1px;
+}
+
+footer {
+    width:100%;
+    height:114px;
+    background: url(../img/bg-footer.png) center top no-repeat;
+}
+
+.footerContainer {
+    max-width:960px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footerLeft {
+    float:left;
+}
+
+.footerRight {
+    float:right;
+    margin:9px 0px 0px 295px;
+}
+
+.menuFooter {
+    float:left;
+    margin:46px 0px 0px 0px;
+}
+
+.menuFooter ul {
+    padding:0px;
+}
+
+.menuFooter li {
+    display: inline-block;
+    margin-left:39px;
+}
+
+.menuFooter .firstItem {
+    margin-left:0px;
+}
+
+.menuFooter li a {
+    display: block;
+    text-decoration: none;
+    color:#ffffff;
+    font-family:"League Gothic";
+    font-size: 20px;
+}
+
+.menuFooter li a:hover {
+    border-bottom: 2px solid #edbfff;
+}
+
+.footerRight p {
+    color:#e8e8ea;
+    font-family:"Open Sans";
+    font-size: 12px;
+    letter-spacing: 0.1px;
+}
+
+.footerRight span {
+    color:#e8e8ea;
+    font-family:"Open Sans";
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+}
+
+.clearfix:after {
+    display: block;
+    content: ' ';
+    clear: both;
+}
+
+@media (max-width: 860px) {
+
+.top {
+    max-width: 860px;
+}
+
+.logo {
+    float:left;
+}
+
+.menu {
+    float: left;
+    margin:4px 0px 0px 0px;
+}
+
+.sliderArticle {
+    padding:0px 0px 0px 0px;
+}
+
+.sliderArticle h1 {
+    font-size: 48px;
+}
+
+.sliderArticle h2 {
+    font-size: 24px;
+}
+
+.sliderArticle p {
+    font-size: 16px;
+}
+
+}
+
+@media (max-width: 768px) {
+
+header {
+    height: 797px;
+}
+
+.containerSmall {
+    max-width: 768px;
+}
+
+.top {
+    max-width: 748px;
+    height: 100px;
+    margin-left:-10px;
+}
+
+.logo {
+    margin-bottom: 29px;
+}
+
+.slider{
+    max-width: 768px;
+    top: 245px;
+}
+
+.sliderBigCell {
+    height: 610px;
+    margin: 0 auto;
+    padding: 50px 0px 0px 34px;
+}
+
+.sliderSmallCell {
+    margin: 0px 0px 10px 0px;
+}
+
+.sliderArticle {
+    padding: 26px 0px 0px 0px;
+    max-width: 44%;
+}
+
+.sliderArticle h2 {
+    margin: 9px 0px 0px 0px;
+}
+
+.sliderArticle p {
+    margin: 9px 0px 0px 0px;
+    height:102px;
+    overflow-y: hidden;
+}
+
+.sliderImg {
+    margin-left: 58.37%;
+    margin-top: 0px;
+}
+
+.sliderSwitch1 {
+    max-width: 768px;
+    margin-left: 70.00%;
+}
+
+.box1 {
+    padding-left: 7.7%;
+    margin-right: 3.5%;
+    width:22%;
+    height: 120px;
+}
+
+.box2 {
+    padding-left: 9.5%;
+    margin-right: 3.5%;
+    width:22%;
+    height: 120px;
+}
+
+.box3 {
+    padding-left: 9.6%;
+    width:21.07%;
+    height: 120px;
+}
+
+.box1 h3, .box2 h3, .box3 h3 {
+    margin: 0px 0px 0px 0px;
+    font-size: 24px;
+}
+
+.box1 p, .box2 p, .box3 p {
+    font-size: 16px;
+    margin: 2px 0px 0px 0px;
+    height:145px;
+}
+
+.box1 a {
+    left: 69%;
+    top: 177px;
+}
+
+.box2 a {
+    left: 71%;
+    top: 177px;
+}
+
+.box3 a {
+    left: 78%;
+    top: 177px;
+}
+
+.box1:before {
+    left: 2px;
+    top: 0px;
+}
+
+.box2:before {
+    left: 12px;
+    top: 0px;
+}
+
+.box3:before {
+    left: 26px;
+    top: 0px;
+}
+
+.containerArticle {
+    max-width: 768px;
+    padding: 98px 0px 0px 38px;
+}
+
+.articleLeft h2 {
+    float:left;
+    width:31%;
+    font-size: 24px;
+    padding: 30px 0px 0px 35px;
+}
+
+.articleLeft {
+    width: 87.55%;
+    margin: 0px 0px 0px 0px;
+}
+
+.articleLeft span {
+    float:left;
+    font-size: 24px;
+    padding: 0px 0px 0px 1px;
+}
+
+.articleLeft p {
+    width: 75%;
+    padding: 8px 0px 0px 36px;
+    line-height: 24px;
+    height:150px;
+    overflow-y: hidden;
+}
+
+.articleLeft:before {
+    top: 19px;
+}
+
+.sliderSwitch2 {
+    margin: 27px 0px 0px 113px;
+}
+
+.articleRight h2 {
+    padding: 30px 0px 15px 13px;
+}
+
+.updates1 h3, .updates2 h3, .updates3 h3 {
+    padding: 0px 0px 0px 12px;
+    line-height: 26px;
+}
+
+.articleRight ul li p {
+    padding: 0px 0px 0px 12px;
+    line-height: 24px;
+    max-width:91%;
+    white-space: nowrap;
+}
+
+.updates1:before {
+    top: 1px;
+    left: 14px;
+}
+
+.updates2:before {
+    top: 68px;
+    left: 14px;
+}
+
+.updates3:before {
+    top: 132px;
+    left: 14px;
+}
+
+.articleRight ul {
+    padding: 0px 0px 5px 68px;
+}
+
+.articleRight a {
+    margin-left: 71%;
+}
+
+.pictures {
+    max-width: 768px;
+}
+
+.logo1 {
+    margin-left: -378px;
+}
+
+.logo2 {
+    margin-left: -255px;
+}
+
+.logo3 {
+    margin-left: -130px;
+}
+
+.logo4 {
+    margin-left: -7px;
+}
+
+.logo5 {
+    margin-left: 41px;
+}
+
+.logo6 {
+    margin-left: 51px;
+}
+
+.commentsContainer {
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.commentsLeft h2 {
+    font-family: "League Gothic";
+    font-size: 24px;
+    margin: 101px 0px 0px 0px;
+}
+
+.commentsLeft span {
+    font-size: 24px;
+    margin: 0px 0px 0px 0px;
+}
+
+.commentsLeft h3 {
+    margin: 12px 0px 0px 0px;
+}
+
+.commentsLeft p {
+    margin: 2px 0px 0px 0px;
+    line-height: 24px;
+}
+
+.commentsCenter h2 {
+    font-size: 24px;
+    margin: 100px 0px 0px 11px;
+}
+
+.commentsCenter p {
+    margin: 9px 0px 0px 11px;
+    line-height: 24px;
+}
+
+.commentsRight h2 {
+    font-size: 24px;
+    margin: 100px 0px 0px 17px;
+}
+.commentsRight p {
+    margin: 9px 0px 0px 17px;
+    line-height: 24px;
+}
+.footerContainer {
+    max-width: 768px;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.footerRight {
+    margin: 37px 0px 0px 295px;
+}
+
+}
+
+@media (max-width: 480px) {
+
+header {
+    height: 548px;
+}
+
+.containerSmall {
+    max-width: 480px;
+}
+
+.top {
+    max-width: 440px;
+    margin-left: 0px;
+}
+
+.logo {
+    padding-left: 32%;
+    margin-bottom: 16px;
+}
+
+.menu {
+    width: 246px;
+    margin-left: 20.5%;
+    z-index: 10;
+    background: rgba(60,48,68,.8);
+    border-radius: 10px;
+    position: absolute;
+    left: 11px;
+    top: 127px;
+}
+
+.menu li {
+    display: block;
+    margin: 0;
+    text-align: center;
+    border-top: 1px solid #523f5a;
+    border-bottom: 1px solid #151f24;
+    position: relative;
+}
+
+.menu li a {
+    padding: 8px 0px 8px 1px;
+}
+
+.menu .firstItem a {
+  padding: 13px 0px 9px 0px;
+}
+
+.menu .firstItem {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.menu .lastItem {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.menu li:hover {
+    background: #29212f;
+}
+
+.menu li a:hover:after {
+    content: "";
+    position: absolute;
+    background:  #edbfff;
+    height: 2px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.menu .lastItem a:hover:after {
+    left: 7px;
+    right: 7px;
+}
+
+.slider {
+    max-width: 480px;
+    top: 203px;
+    height:246px;
+}
+
+.sliderBigCell {
+  z-index: 1;
+}
+
+.sliderSmallCell {
+  height:278px;
+  margin:-26px 0px 0px 0px;
+  padding:0px 20px 0px 0px;
+  z-index: 1;
+}
+
+.sliderArticle {
+    padding: 7px 0px 0px 0px;
+    max-width: 52%;
+    margin-right:0%;
+}
+
+.sliderArticle h1 {
+    margin: 0px 0px 0px -4px;
+    font-size:36px;
+}
+
+.sliderArticle h2 {
+    margin: 2px 0px 0px -4px;
+    font-size:19px;
+    letter-spacing: -0.3px;
+    height:20px;
+    overflow-y: hidden;
+}
+
+.sliderArticle p {
+    display: none;
+}
+
+.sliderImg {
+    margin-left: 213px;
+}
+
+.iPhone {
+  width:192px;
+}
+
+.sliderImg img {
+    width: 100%;
+}
+
+.button {
+    position: absolute;
+    top: 105px;
+    left: 97px;
+    width:76px;
+}
+
+.button img {
+  width: 70%;
+}
+
+.sliderSwitch1 {
+    max-width: 480px;
+    margin-left: 37.5%;
+}
+
+.aboutCompany {
+    height:520px;
+    border-top:1px solid #33253a;
+    background: linear-gradient(to top, #322539, #745083);
+}
+
+.box {
+    max-width:480px;
+}
+
+.box1 {
+    padding-left: 12.5%;
+    margin-top:0px;
+    width: 90%;
+}
+
+.box2 {
+    padding-left: 12.5%;
+    margin-top:37px;
+    width: 90%;
+}
+
+.box3 {
+    padding-left: 12.5%;
+    margin-top:41px;
+    width: 90%;
+}
+
+.box1 p, .box2 p, .box3 p {
+    height: 75px;
+    overflow-y: hidden;
+}
+
+.box1:before {
+    left: -3px;
+    top: 1px;
+}
+
+.box2:before {
+    left: -3px;
+    top: 1px;
+}
+
+.box3:before {
+    left: -3px;
+    top: 1px;
+}
+
+.box1 a {
+    left: 85.5%;
+    top: 114px;
+}
+
+.box2 a {
+    left: 85.5%;
+    top: 114px;
+}
+
+.box3 a {
+    left: 85.5%;
+    top: 114px;
+}
+
+article {
+    max-width: 480px;
+    height: 785px;
+    background-color: #f9f9f9;
+    border-top: 1px solid grey;
+}
+
+.containerArticle {
+    max-width: 480px;
+    padding: 68px 0px 0px 35px;
+}
+
+.containerArticleLeft {
+    float: none;
+    width: 100%;
+    height: 320px;
+}
+
+.articleLeft {
+    width: 97.55%;
+    margin: 0px 0px 0px 0px;
+}
+
+.articleLeft h2 {
+    float: none;
+    width: 80%;
+    font-size: 30px;
+    padding: 30px 0px 0px 35px;
+}
+
+.articleLeft span {
+    float: none;
+    font-size: 30px;
+    padding: 0px 0px 0px 4px;
+}
+
+.articleLeft p {
+    width: 80%;
+    padding: 13px 0px 0px 36px;
+    line-height: 24px;
+    height: 170px;
+    overflow-y: hidden;
+}
+
+.sliderSwitch2 {
+    margin: 27px 0px 0px 157px;
+}
+
+.articleRight {
+    float: none;
+    width: 90%;
+    position: relative;
+}
+
+.articleRight h2 {
+    padding: 43px 0px 15px 35px;
+}
+
+.articleRight li {
+    margin: 0px 0px 16px 23px;
+}
+
+.articleRight ul li p {
+    padding: 0px 0px 0px 12px;
+    line-height: 24px;
+    width:88%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.updates1:before {
+    top: 1px;
+    left: 36px;
+}
+
+.updates2:before {
+    top: 68px;
+    left: 36px;
+}
+.updates3:before {
+    top: 134px;
+    left: 36px;
+}
+
+.articleRight a {
+    margin-left: 74.5%;
+}
+
+.pictures {
+    max-width: 480px;
+    height:233px;
+}
+
+.picturesContainer {
+    width: 480px;
+    height: 120px;
+    margin: 0 auto;
+    padding: 39px 0px 0px 0px;
+}
+
+.logo1 {
+    margin-left: 15%;
+}
+
+.logo2 {
+    margin-left: 13%;
+}
+
+.logo3 {
+    margin-left: 12%;
+}
+
+.logo4 {
+    margin-left: 10%;
+    margin-top:24px;
+}
+
+.logo5 {
+  margin-left: 8.5%;
+  margin-top:24px;
+}
+
+.logo6 {
+  margin-left: 10%;
+  margin-top:24px;
+}
+
+.comments {
+    max-width: 480px;
+    height: 668px;
+
+}
+
+.commentsContainer {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.commentsLeft {
+    overflow: hidden;
+    float: none;
+    width: 102%;
+    padding-left: 0%;
+    margin-right: 6.2%;
+    height: 262px;
+}
+
+.commentsLeft h2 {
+    margin: 79px 0px 0px 0px;
+}
+
+.commentsLeft h3 {
+    margin: 14px 0px 0px 0px;
+}
+
+.commentsCenter {
+    overflow: hidden;
+    float: none;
+    width: 102%;
+    padding-left: 0%;
+    margin-right: 6.2%;
+    height: 186px;
+}
+
+.commentsCenter h2 {
+    margin: 0px 0px 0px 0px;
+}
+
+.commentsCenter p {
+    margin: 9px 0px 0px 0px;
+    height:95px;
+    overflow-y: hidden;
+}
+
+.commentsRight {
+    overflow: hidden;
+    float: none;
+    width: 102%;
+    padding-left: 0%;
+    margin-right: 0%;
+    height: 262px;
+}
+
+.commentsRight h2 {
+    margin: 0px 0px 0px 0px;
+}
+
+.commentsRight p {
+    margin: 9px 0px 0px 0px;
+    height:95px;
+    overflow-y: hidden;
+}
+
+footer {
+    max-width: 480px;
+    height: 114px;
+}
+
+.footerContainer {
+    max-width: 480px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.menuFooter li {
+    margin-left: 21px;
+}
+
+.footerRight {
+    float:none;
+    margin: 57px 0px 0px 149px;
+}
+
+}
+
+@media (max-width: 320px) {
+
+header {
+    height:517px;
+}
+
+.containerSmall {
+    max-width: 300px;
+}
+
+.top {
+    max-width: 320px;
+    margin-left: 0px;
+}
+
+.logo {
+    padding-left: 20.8%;
+}
+
+.sliderImg {
+    display: none;
+}
+
+.slider {
+    display: none;
+}
+
+.menu {
+    width:0px;
+    height:0px;
+}
+
+.menu li a {
+    position: absolute;
+    top:10000px;
+}
+
+.menu .firstItem a {
+    position: absolute;;
+    top:1px;
+    left:59px;
+}
+
+.menu li {
+    border-top: none;
+    border-bottom: none;
+    position: relative;
+}
+
+.menu li a:after {
+    content: "";
+    position: absolute;
+    bottom:2px;
+    height: 2px;
+    left: -4px;
+    right: -6px;
+    background:  #edbfff;
+}
+
+.menu li a:hover:after {
+    content: "";
+    position: absolute;
+    background:  #edbfff;
+    height: 2px;
+    bottom: 2px;
+    left: -4px;
+    right: -43px;
+}
+
+
+.sliderBigCell {
+    height: 610px;
+    margin: 0 auto;
+    padding: 51px 0px 0px 59px;
+}
+
+.sliderArticle {
+    max-width: 95%;
+}
+
+.sliderSmallCell {
+    height: 236px;
+}
+
+.sliderSwitch1 {
+    max-width: 320px;
+    margin-left: 22.5%;
+}
+
+.aboutCompany {
+    padding: 70px 0px 0px 22px;
+    height: 528px;
+}
+
+.box {
+    max-width: 320px;
+}
+
+.box3 {
+    margin-top: 53px;
+}
+
+.box1:before {
+    left: -21px;
+    top: 1px;
+}
+
+.box2:before {
+    left: -21px;
+    top: 1px;
+}
+
+.box3:before {
+    left: -21px;
+    top: 1px;
+}
+
+.box1 a {
+    left: 75.5%;
+}
+
+.box2 a {
+    left: 75.5%;
+}
+
+.box3 a {
+    left: 75.5%;
+}
+
+article {
+    max-width: 320px;
+    height: 785px;
+}
+
+.containerArticle {
+    max-width: 320px;
+    padding: 68px 0px 0px 0px;
+}
+
+.articleLeft {
+    margin: 0px 0px 0px 35px;
+}
+
+.articleLeft h2 {
+    float: left;
+    width: 35%;
+    font-size: 24px;
+    padding: 26px 0px 0px 35px;
+}
+
+.articleLeft span {
+    float: left;
+    font-size: 24px;
+    padding: 0px 0px 0px 0px;
+}
+
+.articleLeft p {
+    width: 60%;
+    padding: 4px 0px 0px 39px;
+    height: 170px;
+    overflow-y: hidden;
+}
+
+.sliderSwitch2 {
+    margin: 27px 0px 0px 133px;
+}
+
+.articleRight {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.articleRight h2 {
+    padding: 42px 0px 15px 9px;
+}
+
+.articleRight ul {
+    padding: 0px 0px 5px 42px;
+}
+
+.updates1:before {
+    top: 1px;
+    left: 11px;
+}
+
+.updates2:before {
+    top: 66px;
+    left: 11px;
+}
+
+.updates3:before {
+    top: 134px;
+    left: 11px;
+}
+
+.updates1 h3, .updates2 h3, .updates3 h3 {
+    padding: 0px 0px 0px 12px;
+    line-height: 26px;
+    width:90%;
+    height: 25px;
+    overflow-y: hidden;
+}
+
+.articleRight ul li p {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.articleRight a {
+    margin-left: 65.5%;
+}
+
+.pictures {
+    max-width: 320px;
+    height: 421px;
+}
+
+.picturesContainer {
+    width: 320px;
+    height: 120px;
+    margin: 0 auto;
+    padding: 52px 0px 0px 0px;
+}
+
+.logo1 {
+    margin-left: 16%;
+}
+
+.logo2 {
+    margin-left: 19%;
+}
+
+.logo3 {
+    margin-left: 19%;
+    margin-top: 60px;
+}
+
+.logo4 {
+    margin-left: 17%;
+    margin-top: 60px;
+}
+
+.logo5 {
+    margin-left: 8.5%;
+    margin-top: 41px;
+}
+
+.logo6 {
+    margin-left: 16%;
+    margin-top: 40px;
+}
+
+.comments {
+    display:none;
+}
+
+.footerLeft {
+    display: none
+}
+
+.footerRight {
+    float: left;
+    margin: -5px 0px 0px 72px;
+}
+
+}
