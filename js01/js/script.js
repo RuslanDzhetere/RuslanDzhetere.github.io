@@ -1,24 +1,21 @@
 function pow(x,n) {
-  var result;
-  if (x == 0 && n >= 0) {
-    return x;
-  } else if (x != 0 && n == 0) {
-    result = 1;
-    return result;
-  } else if (x !=0 && n < 0) {
-    result = 1;
-    for (var i = 0; i < Math.abs(n); i++) {
-      result = result * x;
+    var result;
+    if (x == 0) {
+      return 0;
+    } else if (x != 0 && n == 0) {
+      result = 1;
+      return result;
+    } else {
+      result = 1;
+      for (var i = 0; i < Math.abs(n); i++) {
+        result = result * x;
+      }
+      if (n>0) {
+        return result;
+      } else {
+      return 1/result;
+      }
     }
-    return 1/result;
-  }
-  else {
-    result = 1;
-    for (var i = 0; i < n; i++) {
-      result = result * x;
-    }
-    return result;
-  }
   }
 
 var base,exponent;
