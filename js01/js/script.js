@@ -25,6 +25,6 @@ var base = prompt('Введите основание числа');
 while (exponent == null || exponent == '') {
 var exponent = prompt('Введите степень числа');
 }
-var flag = false;
+
 var result = pow(base,exponent);
 console.log('Результат = ' + result);
