@@ -1,0 +1,47 @@
+body{
+  background-color: #CFE2F6;
+  font-family: Arial,Tahoma, sans-serif;
+  font-size:19px;
+}
+
+.wrapper{
+  background-color: white;
+  margin: 0 auto;
+  margin-top:5px;
+  width:800px;
+  height: 600px;
+}
+
+.header{
+  padding-left:270px;
+  padding-top: 22px;
+  margin-bottom: 46px;
+}
+
+.listQuestions{
+  list-style-type: decimal;
+  padding-left:117px;
+}
+
+.listAnswers{
+  list-style: none;
+  padding-top: 14px;
+  padding-bottom: 12px;
+  padding-left:8px;
+  font-size: 16px;
+}
+
+.listAnswers li{
+  padding-bottom: 6px;
+}
+
+.footer{
+  padding-top: 60px;
+  height:53px;
+  font-size: 19px;
+  background: #CFE2F6;
+  border: 2px solid black;
+  padding: 10px 43px;
+  margin-top:37px;
+  margin-left: 252px;
+}
