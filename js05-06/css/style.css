@@ -1,0 +1,75 @@
+ .wrapper {
+  font-family: Arial, Tahoma, sans-serif;
+  color:black;
+  font-size: 122px;
+  font-weight: bold;
+  width:600px;
+  text-align: center;
+  margin:0 auto;
+}
+
+.clock {
+  background-color: cyan;
+  width:600px;
+  height:205px;
+  text-align: center;
+  margin-top:50px;
+  border:10px solid black;
+  border-radius: 25px;
+}
+
+#outputTime {
+  margin-bottom:-30px;
+}
+
+#outputMs {
+  font-size: 24px;
+  padding-top:0px;
+  padding-left:424px;
+  text-align: center;
+}
+
+.control {
+  margin-top:50px;
+}
+
+.btn:focus {
+  color:black;
+  border:10px solid black;
+}
+
+.leftButton {
+  float: left;
+  width:200px;
+  text-align: center;
+  border:10px solid black;
+  border-radius: 25px;
+  font-size: 46px;
+  font-weight: bold;
+  color:black;
+}
+
+.rightButton {
+  float: right;
+  width:200px;
+  text-align: center;
+  border:10px solid black;
+  border-radius: 25px;
+  font-size: 46px;
+  font-weight: bold;
+  color:black;
+}
+
+.btn-success:hover {
+  background-color: #5cb85c;
+  color: black;
+  border:10px solid black;
+  border-radius: 25px;
+}
+
+.btn-danger:hover {
+  background-color: #d9534f;
+  color: black;
+  border:10px solid black;
+  border-radius: 25px;
+}
