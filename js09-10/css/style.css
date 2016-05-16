@@ -1,0 +1,301 @@
+body {
+    background: #F0EFE7;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #4E443C;
+}
+
+.wrapper {
+    padding: 0 20px 40px 20px;
+    margin: auto;
+}
+
+.jcarouselWrapper {
+    margin: 20px auto;
+    position: relative;
+    border: 10px solid #fff;
+    width: 600px;
+    height: 400px;
+}
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    float: left;
+}
+
+.jcarouselList {
+    position: relative;
+    left:0px;
+    top:0px;
+    list-style: none;
+    width: 10000px;
+}
+
+.jcarouselList li {
+    float: left;
+    display:block;
+}
+
+.jcarouselControlPrev, .jcarouselControlNext {
+    position: absolute;
+    top: 200px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #4E443C;
+    color: #fff;
+    text-decoration: none;
+    font: 24px Arial, sans-serif;
+    border-radius: 30px;
+}
+
+.jcarouselControlPrev {
+    left: -50px;
+}
+
+.jcarouselControlNext {
+    right: -50px;
+}
+
+form {
+		padding: 10px;
+	}
+
+	.lineForm3 {
+    margin-top:20px;
+		margin-bottom: 20px;
+    float: left;
+		width: 100px;	
+	}
+
+  .cusel {
+		float: left;
+		margin-right: 10px;
+	}
+
+  .cusel,
+  .cuselFrameRight,
+  .jScrollPaneDrag,
+  .jScrollArrowUp,
+  .jScrollArrowDown {
+      background: url(../img/selects-2.png) no-repeat;
+  }
+
+  .cusel {
+      height: 26px;
+      background-position: left top;
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      font-size: 14px;
+      z-index: 1;
+  }
+
+  .cuselFrameRight {
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 42px;
+      background-position: right top;
+  }
+
+  .cuselText {
+      height: 14px;
+      padding: 6px 0 0 7px;
+      cursor: pointer;
+      overflow: hidden;
+      position: relative;
+      z-index: 1;
+      font: 12px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+  * html .cuselText {
+      height: 22px;
+  }
+  .cusel span {
+      display: block;
+      cursor: pointer;
+      white-space: nowrap;
+      padding: 2px 15px 2px 5px;
+  }
+  .cusel span:hover,
+  .cusel .cuselOptHover {
+      background: #003399;
+      color: #fff;
+  }
+  .cusel .cuselActive {
+      background: #CC0000;
+      color: #fff;
+      cursor: default;
+  }
+
+  .cusel .cusel-scroll-wrap {
+      display: block;
+      visibility: hidden;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      background: #fff;
+      min-width: 100%;
+      width: auto;
+  }
+
+  .form {
+      margin-top: 100px;
+      width:300px;
+      height:100px;
+      background: #99CCFF;
+      padding: 10px;
+      position:relative;
+      z-index: 0;
+  }
+
+  .check{
+    display: inline-block;
+  }
+
+ .niceCheck input {
+    display: none;
+}
+
+
+.niceCheck2 input[type=checkbox] {
+  	position: absolute;
+  	clip: rect(0, 0, 0, 0);
+    margin-top:5px;
+}
+.check label {
+  	margin-left:25px;
+}
+
+.niceCheck label {
+  	cursor: pointer;
+}
+
+.niceCheck2 label:before {
+  	content: " ";
+  	display: inline-block;
+  	width: 40px;
+  	height: 40px;
+  	background: url(../img/checkbox-sprite.png);
+  	position: relative;
+  	top: 18px;
+    margin-top: 10px;
+  	margin-right: 25px;
+    cursor: pointer;
+}
+
+.niceCheck{
+    margin-bottom:10px;
+    margin-left:0px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    cursor: pointer;
+    background: url(../img/checkbox-sprite.png);
+}
+
+
+.niceCheck2 input[type=checkbox]:checked + label:before {
+    background-position: 0 -41px;
+}
+
+.label1{
+    position:absolute;
+    top:20px;
+    left:50px;
+}
+
+.label2{
+    position:absolute;
+    top:40px;
+    left:10px;
+}
+
+nav {
+  	background-color:rgb(255,100,100);
+  	padding:10px 10px;
+}
+
+.content {
+    width: 600px;
+    margin: 0 auto;
+    margin-left:400px;
+}
+nav ul {
+    list-style-type:none;
+    margin:0 auto;
+    padding:0;
+}
+nav ul li {
+    display:inline-block;
+    position:relative;
+}
+
+nav li ul {
+    background-color:rgb(225,75,75);
+    position:absolute;
+    left:0;
+    top:40px;
+    width:200px;
+}
+
+nav li li {
+    position:relative;
+    margin:0;
+    display:block;
+}
+
+nav li li ul {
+    position:absolute;
+    top:0;
+    left:200px;
+    margin:0;
+}
+
+nav a {
+    line-height:40px;
+    padding:0 12px;
+    margin:0 12px;
+}
+nav a {
+    color:#fff;
+    text-decoration:none;
+    display:block;
+}
+nav a:hover,
+nav a:focus,
+nav a:active {
+    color:rgb(50,50,50);
+}
+
+nav li li a {
+    border-bottom:solid 1px rgb(200,50,50);
+    margin:0 10px;
+    padding:0;
+}
+nav li li:last-child a {
+    border-bottom:none;
+}
+
+ul.sub-menu {
+    display:none;
+}
+
+nav li.dropdown > a {
+    background-image:url('../img/arrow-down.png');
+    background-position:right 20px;
+    background-repeat:no-repeat;
+}
+
+nav li li.dropdown > a {
+    background-image:url('../img/arrow-right.png');
+    background-position:right 16px;
+    background-repeat:no-repeat;
+}

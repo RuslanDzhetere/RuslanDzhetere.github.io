@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Домашнее задание Джетере Р. к модулю 9-10 JavaScript</title>
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/style.css">
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+      <script type="text/javascript" src="js/cusel.js"></script>
+	    <script type="text/javascript" src="js/jScrollPane.js"></script>
+	    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+      <script type="text/javascript" src="js/jquery.color.js"></script>
+      <script src="js/script.js"></script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="jcarouselWrapper">
+                <div class="jcarousel">
+                    <ul class="jcarouselList" >
+                        <li><img src="img/img1.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/img2.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/img3.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/img4.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/img5.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/img6.jpg" width="600" height="400" alt=""></li>
+                    </ul>
+                </div>
+                <a href="#" class="jcarouselControlPrev">‹</a>
+                <a href="#" class="jcarouselControlNext">›</a>
+      </div>
+      <nav>
+          <ul class="content clearfix">
+              <li><a href="#">Nav 1</a></li>
+              <li><a href="#">Nav 2</a></li>
+              <li class="dropdown">
+                  <a href="#">Nav 3</a>
+                  <ul class="sub-menu">
+                      <li><a href="#">Nav 3.1</a></li>
+                      <li><a href="#">Nav 3.2</a></li>
+                      <li><a href="#">Nav 3.3</a></li>
+                      <li class="dropdown">
+                          <a href="#">Nav 3.4</a>
+                          <ul class="sub-menu">
+                              <li><a href="#">Nav 3.4.1</a></li>
+                              <li class="dropdown">
+                                  <a href="#">Nav 3.4.2</a>
+                                  <ul class="sub-menu">
+                                      <li><a href="#">Nav 3.4.2.1</a></li>
+                                      <li><a href="#">Nav 3.4.2.2</a></li>
+                                      <li><a href="#">Nav 3.4.2.3</a></li>
+                                      <li><a href="#">Nav 3.4.2.4</a></li>
+                                      <li><a href="#">Nav 3.4.2.5</a></li>
+                                  </ul>
+                              </li>
+                              <li><a href="#">Nav 3.4.3</a></li>
+                              <li><a href="#">Nav 3.4.4</a></li>
+                              <li><a href="#">Nav 3.4.5</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#">Nav 3.5</a></li>
+                  </ul>
+              </li>
+              <li><a href="#">Nav 4</a></li>
+              <li><a href="#">Nav 5</a></li>
+          </ul>
+      </nav>
+
+      <form action="#">
+            <div class="lineForm3">
+              <select id="city" name="city" tabindex="1">
+                 <option value="">Киев</option>
+                 <option value="2">Львов</option>
+                 <option value="3">Симферополь</option>
+                 <option value="4">Ялта</option>
+                 <option value="5">Алушта</option>
+                 <option value="6">Гурзуф</option>
+                 <option value="7">Судак</option>
+              </select>
+            </div>
+      </form>
+
+      <form class="form">
+          <div class="check">
+                <span class="niceCheck">
+                   <input  type="checkbox"  id="ch1"/>
+                </span>
+                <label class="label1" for="ch1">Chekbox на jQuery</label>
+          </div>
+          <div class="niceCheck2">
+                <input type="checkbox" id="ch2"/>
+                <label class="label2" for="ch2">Chekbox на CSS</label>
+          </div>
+      </form>
+    </div>
+  </body>
+</html>
