@@ -1,0 +1,62 @@
+body {
+    background-color:gray;
+    margin: 8px;
+}
+
+.box {
+    left: 33%;
+    right: 33%;
+    width: 33%;
+    background-color:white;
+    position: absolute;
+    margin-top: 0px;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.pic img {
+    display: block;
+    margin:0 auto;
+    height: 200px;
+}
+
+.position, .phrase1 {
+    margin: 30px 60px;
+}
+
+ul {
+    margin: 30px 60px 30px 45px;
+    line-height:30px;
+    list-style-type: disc;
+    padding-left:40px;
+}
+
+li {
+  display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.data, .profile, .feedback {
+    margin: 30px 60px;
+    line-height:10px;
+}
+
+hr {
+    background-color: gray;
+    height: 1px;
+    margin: 0 40px;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}

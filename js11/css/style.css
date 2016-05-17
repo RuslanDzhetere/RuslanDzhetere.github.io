@@ -1,0 +1,74 @@
+body {
+    background: #F0EFE7;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #4E443C;
+}
+
+.wrapper {
+  padding: 100px 20px 40px 20px;
+}
+
+.container {
+  width:1255px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin:-100px 0 0 -630px;
+  text-align: center;
+}
+
+.carousel-list {
+    list-style: none;
+    width: 10000px;
+    padding: 0px;
+}
+
+.carousel-element {
+    display: block;
+    margin-right: 25px;
+    float: left;
+}
+
+.carousel-element img {
+    max-width: 200px;
+}
+
+.carousel-list {
+    list-style: none;
+    width: 10000px;
+    padding: 0px;
+    position: relative;
+}
+
+.carousel-hider {
+    width: 1100px;
+    overflow: hidden;
+    float: left;
+}
+
+.carousel-arrow-left, .carousel-arrow-right {
+    float: left;
+}
+
+.carousel-arrow-left, .carousel-arrow-right {
+    float: left;
+    display: block;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    padding: 5px;
+    margin-top: 65px;
+}
+
+.carousel-arrow-left:hover, .carousel-arrow-right:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.carousel-arrow-left {
+    margin-right: 25px;
+}
+
+.carousel-arrow-right {
+    margin-left: 25px;
+}

@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Домашнее задание Джетере Р. к модулю 11-12 JavaScript</title>
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="js/tmpl.js"></script>
+      <script src="js/script.js"></script>
+
+  </head>
+  <body>
+    <script type=text/template id="test">
+        <div class="wrapper">
+            <div class="box">
+                <h2><%= name %></h2>
+                <div class="pic"><img src="<%= photo %>" alt="Фото Руслана Джетере"
+                title="Фото Руслана Джетере">
+            </div><!--pic-->
+            <p class="position" ><%=position%></p>
+            <hr>
+            <p class="phrase1" >Хочу учить фронтенд, потому что:</p>
+
+            <ul>
+              <% for (var i = 0; i < list.length; i++) { %>
+                        <li><%= list[i] %></li>
+                    <% }; %>
+            </ul>
+
+            <hr>
+            <div class="data">
+              <p>Мой контактный телефон</p>
+              <p><%= phone %></p>
+            </div><!--data-->
+
+            <div class="profile">
+              <p>Мой профиль в facebook.com</p>
+              <p><a href ="<%= facebook %>" title="Link to the facebook.com" target="_blank" >facebook.com</a></p>
+            </div><!--profile-->
+
+            <hr>
+            <div class="feedback">
+              <p>Мой фидбек:</p>
+              <p><%= feedback %></p>
+            </div><!--feedback-->
+
+          </div><!--box-->
+
+        </div>
+    </script>
+  </body>
+</html>
