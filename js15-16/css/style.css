@@ -1,0 +1,113 @@
+body {
+  background-color: white;
+  font-family: Arial,Tahoma, sans-serif;
+  font-size:13px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width:584px;
+  height:600px;
+}
+
+.header {
+  margin: 220px auto 30px auto;
+  text-align: center;
+  background-size:272px 92px;
+  height:92px;
+  width:410px;
+  font-size:86px;
+  font-weight: bold;
+}
+
+.firstLetter {
+  color:blue;
+  float:left;
+}
+
+.secondLetter {
+  color:red;
+  float:left;
+}
+
+.thirdLetter {
+  color:blue;
+  float:left;
+}
+
+.fourthLetter {
+  color:red;
+  float:left;
+}
+
+.fifthLetter {
+  color:orange;
+  float:left;
+}
+
+.sixthLetter {
+  color:blue;
+  float:left;
+}
+
+.seventhLetter {
+  color:green;
+  float:left;
+}
+
+.eighthLetter {
+  color:red;
+  float:left;
+}
+
+form {
+  text-align: center;
+}
+
+.search {
+  width:574px;
+  height: 38px;
+  border: 1px solid #4d90fe;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.jsb {
+  padding-top: 18px;
+}
+
+.button {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  height: 36px;
+  border-radius: 2px;
+  color: #757575;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+}
+
+.button:hover {
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
+.search:hover {
+  border: 1px solid #c6c6c6;
+}
+
+ul {
+  padding:0 8px;
+}
+
+ul img{
+  margin-right: 2px;
+  height:127px;
+}
+
+ul li {
+  display: inline;
+}
